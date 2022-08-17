@@ -40,3 +40,13 @@ a:active
     background-color: transparent;
     text-decoration: underline;
 }
+
+tr:nth-child(even)
+{
+    background-color: #D6EEEE;
+}
+
+td:hover 
+{
+    background-color: beige;
+}
