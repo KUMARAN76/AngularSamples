@@ -18,7 +18,8 @@ import { CsslearningComponent } from './csslearning/csslearning.component';
     AppRoutingModule,
     RouterModule.forRoot
       ([
-        {path:'html', component: HTMLLearningComponent},
+        { path:'html', component: HTMLLearningComponent },
+        { path:'css', component: CsslearningComponent}
       ]),
   ],
   providers: [],
