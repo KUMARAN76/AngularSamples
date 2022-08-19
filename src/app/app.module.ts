@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HTMLLearningComponent } from './htmllearning/htmllearning.component';
 import { RouterModule } from '@angular/router';
+import { CsslearningComponent } from './csslearning/csslearning.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HTMLLearningComponent
+    HTMLLearningComponent,
+    CsslearningComponent
   ],
   imports: [
     BrowserModule,
