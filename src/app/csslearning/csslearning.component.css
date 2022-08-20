@@ -117,3 +117,356 @@ div.outlineWidth
     outline-color: red;
     outline-offset: 10px;
 }
+
+div.myColor
+{
+    color: green;
+}
+
+div.txtAlign
+{
+    text-align: center;
+}
+div.txtRight
+{
+    text-align: right;
+}
+div.txtLeft
+{
+    text-align: left;
+}
+div.txtLast
+{
+    text-align-last: right;
+}
+div.txtDir
+{
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+img.a { vertical-align: baseline; }
+img.b { vertical-align: text-top; }
+img.c { vertical-align: text-bottom; }
+img.d { vertical-align: sub; }
+img.e { vertical-align: super; }
+
+div.txtDecor
+{
+    text-decoration-line: overline;
+    text-decoration-color: red;
+    text-decoration-style: solid;
+}
+div.txtline
+{
+    text-decoration-line: line-through;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 5px;
+}
+div.txtUnder
+{
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+}
+div.txtBoth
+{
+    text-decoration-line: overline underline;
+    text-decoration-style: double;
+}
+
+div.txtUpper
+{
+    text-transform: uppercase;
+}
+div.txtLower
+{
+    text-transform: lowercase;
+}
+div.txtCap
+{
+    text-transform: capitalize;
+}
+
+div.txtIndent
+{
+    text-indent: 30px;
+}
+div.letterSpace
+{
+    letter-spacing: 5px;
+}
+div.lineHeight
+{
+    line-height: 10px;
+}
+div.wordSpace
+{
+    word-spacing: 7px;
+}
+div.whiteSpace
+{
+    white-space: 8px;
+}
+
+h1.txtShd
+{
+    color: white;
+    text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
+    /* text-shadow: 2px 2px 5px red ; */
+}
+
+div.fontFam
+{
+    font-family: 'Courier New', Courier, monospace;
+}
+div.fontNormal
+{
+    font-style: normal;
+    
+}
+div.fontItalic
+{
+    font-style: italic;
+}
+div.fontObliq
+{
+    font-style: oblique;
+}
+div.weightNormal
+{
+    font-weight: normal;
+}
+div.weightBold
+{
+    font-weight: bold;
+}
+div.variantNorm
+{
+    font-variant: normal;
+}
+div.variantSmall
+{
+    font-variant: small-caps;
+}
+div.fontSize
+{
+    font-size: 20px;
+}
+div.fontVW
+{
+    font-size: 2vw;
+}
+
+a.linkStyle:link
+{
+    font-size: 30px;
+    color: hotpink;
+    text-decoration: none;
+}
+a.linkStyle:visited
+{
+    color: green;
+}
+a.linkStyle:hover
+{
+    color: wheat;
+    text-decoration: underline;
+}
+a.linkStyle:active
+{
+    color: crimson;
+}
+a.linkBtn:link, a.linkBtn:visited
+{
+    background-color: #0000ff;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a.linkBtn:hover, a.linkBtn:active
+{
+    background-color: red;
+}
+
+ul.a
+{
+    list-style-type: circle;
+    list-style-position: inside;
+}
+ul.b
+{
+    list-style-type: disc;
+    list-style-position: outside;
+}
+ol.c
+{
+    list-style-type: upper-roman;
+    list-style-position: inside;
+}
+ol.d
+{
+    list-style-type: lower-alpha;
+    list-style-position: outside;
+}
+ol.e
+{
+    list-style-image: url(../../assets/images/sqpurple.gif);
+}
+
+.table1, th, td
+{
+    /* width: 100%; */
+    border: 1px solid;
+}
+th, td
+{
+    width: 200px;
+    height: 60px;
+}
+.tableDiv
+{
+    overflow-x: scroll;
+}
+
+div.spanObj
+{
+    display: block;
+}
+div.pObj
+{
+    display: inline;
+}
+button.hidden
+{
+    visibility: hidden;
+}
+button.none
+{
+    display: none;
+}
+
+div.ex1
+{
+    width: 500px;
+    margin: auto;
+    border: 3px solid green;
+}
+div.ex2
+{
+    max-width: 500px;
+    margin: auto;
+    border: 3px solid green;
+}
+
+div.static
+{
+    position: static;
+    border: 3px solid blue;
+}
+div.relative
+{
+    position: relative;
+    left: 30px;
+    border: 3px solid blue;
+}
+div.absolute
+{
+    position: absolute;
+    top: 80px;
+    right: 0;
+    border: 3px solid blue;
+}
+div.fixed
+{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border: 3px solid blue;
+    visibility: hidden;
+}
+div.sticky
+{
+    position: -webkit-sticky;
+    position: sticky;
+    top: auto;
+    border: 3px solid blue;
+}
+
+img.index
+{
+    position: absolute;
+    left: 0px;
+    top: 0px;    
+    z-index: -1;
+}
+
+div.overvisible
+{
+    overflow: visible;
+    width: 200px;
+    height: 100px;
+    background-color: coral;
+}
+div.overhidden
+{
+    overflow: hidden;
+    width: 200px;
+    height: 20px;
+    background-color: coral;
+    position: relative;
+    left: 200px;
+}
+div.overflowx
+{
+    overflow: scroll;
+    width: 200px;
+    height: 100px;
+    background-color: coral;
+    position: relative;
+    top: 20px;
+    left: 200px;
+}
+
+img.floatRight
+{
+    float: right;
+}
+div.divFloat
+{
+    float: left;
+    padding: 15px;
+}
+div.divFloat1
+{
+    background-color: rebeccapurple;
+}
+div.divFloat2
+{
+    background-color: #0000ff;
+}
+
+div.div1
+{
+    clear: right;
+    float: left;
+    padding: 10px;
+    border: 3px solid blue;
+}
+div.div2
+{
+    border: 3px solid red;
+    padding: 10px;
+}
+div.div3
+{
+    float: left;
+    padding: 10px;
+    border: 3px solid blue;
+}
+div.div4
+{
+    clear: left;
+    padding: 10px;
+    border: 3px solid red;
+}
