@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { HTMLLearningComponent } from './htmllearning/htmllearning.component';
 import { RouterModule } from '@angular/router';
 import { CsslearningComponent } from './csslearning/csslearning.component';
+import { BootstraplearningComponent } from './bootstraplearning/bootstraplearning.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HTMLLearningComponent,
-    CsslearningComponent
+    CsslearningComponent,
+    BootstraplearningComponent
   ],
   imports: [
     BrowserModule,
@@ -19,7 +21,9 @@ import { CsslearningComponent } from './csslearning/csslearning.component';
     RouterModule.forRoot
       ([
         { path:'html', component: HTMLLearningComponent },
-        { path:'css', component: CsslearningComponent}
+        { path:'css', component: CsslearningComponent},
+        { path:'bootstrap', component: BootstraplearningComponent },
+
       ]),
   ],
   providers: [],
