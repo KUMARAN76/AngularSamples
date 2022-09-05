@@ -10,6 +10,7 @@ export class BootstraplearningComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+
   }
 
 }
